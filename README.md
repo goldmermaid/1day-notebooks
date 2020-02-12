@@ -9,24 +9,50 @@ Deep learning is transforming the world nowadays. However, realizing deep learni
 3. the optimization algorithms for fitting the models to data;
 4. and the experience of choosing proper hyperparameters for the solution.
 
-[Dive into Deep Learning](https://d2l.ai/), a unified resource to achieve the following goals:
 
-- Offering depth theory and runnable code,showing readers how to solve problems in practice;
+To fulfill the strong wishes of simpler but more practical deep learning materials, [Dive into Deep Learning](https://d2l.ai/), a unified resource of deep learning was born to achieve the following goals:
+
+- Offering depth theory and runnable code, showing readers how to solve problems in practice;
 - Allow for rapid updates, both by us, and also by the community at large;
 - Be complemented by a forum for interactive discussions of technical details and to answer questions;
 - Be freely available for everyone.
 
 
-Here is the demonstration of this training:
-1. [Installation with CUDA](https://d2l.ai/chapter_appendix-tools-for-deep-learning/aws.html#installing-cuda);
-2. [Hardware for deep learning](https://d2l.ai/chapter_computational-performance/hardware.html#gpus-and-other-accelerators);
+
+## Prerequisites
+
+
+### Installations
+
+| title                               |  ipynb    |  slides    |
+| ------------------------------ | ---- | ---- |
+| Installations with CUDA | ---- | https://d2l.ai/chapter_installation/index.html |
+| Basic Operations on GPUs                                    | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/1-use-gpu.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/1-use-gpu.ipynb#/) |
+
+
+
+### Deep Learning Basic
+
+| title                               |  ipynb    |  slides    |
+| ------------------------------ | ---- | ---- |
+| Data Manipulation with Ndarray | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/1-ndarray.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/1-ndarray.ipynb#/) |
+| Automatic Differentiation | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/2-autograd.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/2-autograd.ipynb#/) |
+| Concise Implementation of Softmax Regression | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/7-softmax-regression-gluon.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/7-softmax-regression-gluon.ipynb#/) |
+| Concise Implementation of Multilayer Perceptron (MLP) | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/9-mlp-gluon.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/9-mlp-gluon.ipynb#/) |
+
+
+
+## Syllabus
+
+In this training, we are going to provide an overview of the in-depth convolutional neural networks (CNN) theory and handy python code. What is more important, the audience would be able to train a simple CNN model on our pre-setup cloud-computing instances for free. Here are the detailed schedule:
+
+1. [Hardware for deep learning](https://d2l.ai/chapter_computational-performance/hardware.html#gpus-and-other-accelerators);
 3. Basic convolutional neural networks;
 4. Modern convolutional neural networks;
 5. TextCNN;
 6. AutoML.
 
-
-
+### Convolutional Neural Networks
 
 ```{.python .input}
 
@@ -82,3 +108,7 @@ Check [the wiki page](https://github.com/mli/1day-notebooks/wiki) for instructio
 | Concise Implementation of Recurrent Neural Networks      | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-4/3-rnn-gluon.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-4/3-rnn-gluon.ipynb#/) |
 | Gated Recurrent Units (GRU)                              | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-4/4-gru.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-4/4-gru.ipynb#/) |
 | Long Short Term Memory (LSTM)                            | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-4/5-lstm.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-4/5-lstm.ipynb#/) |
+
+```{.python .input}
+
+```
