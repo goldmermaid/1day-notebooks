@@ -1,18 +1,18 @@
 # GTC2020 Tutorial - Dive into Deep Learning
 
 
-Deep learning is transforming the world nowadays. How- ever, realizing deep learning presents unique challenges because any single application brings together various disciplines. Applying deep learning requires simultaneously understanding:
+Deep learning is transforming the world nowadays. However, realizing deep learning presents unique challenges because any single application brings together various disciplines. Applying deep learning requires simultaneously understanding:
 
 1. the engineering required to train models efficiently, navigating the pitfalls of numerical computing and getting the most out of available hardware;
 2. the mathematics of a given modeling approach;
 3. the optimization algorithms for fitting the models to data;
-4. andtheexperienceofchoosingproperhyperparameters for the solution.
+4. and the experience of choosing proper hyperparameters for the solution.
 
 As a result, deep learning users, especially beginners, often have to refer to a variety of materials from different sources. This process can be painful: materials from different sources may not correspond to each other, and even if it does, it may take a lot of effort. To address such pain points, we set out to create [Dive into Deep Learning](https://d2l.ai/), a unified resource to achieve the following goals:
 
-- Offerin-depththeoryandrunnablecode,showingread- ers how to solve problems in practice;
+- Offering depth theory and runnable code,showing readers how to solve problems in practice;
 - Allow for rapid updates, both by us, and also by the community at large;
-- Be complemented by a forum for interactive discus- sions of technical details and to answer questions;
+- Be complemented by a forum for interactive discussions of technical details and to answer questions;
 - Be freely available for everyone.
 
 
