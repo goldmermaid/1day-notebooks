@@ -24,12 +24,8 @@ To fulfill the strong wishes of simpler but more practical deep learning materia
 
 ### Installations
 
-| title                               |  ipynb    |  slides    |
-| ------------------------------ | ---- | ---- |
-| Installations with CUDA | ---- | https://d2l.ai/chapter_installation/index.html |
-| Basic Operations on GPUs                                    | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/1-use-gpu.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/1-use-gpu.ipynb#/) |
-
-
+- [Installations with CUDA](https://d2l.ai/chapter_installation/index.html)
+- [Basic Operations on GPUs](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/1-use-gpu.ipynb#/)
 
 ### Deep Learning Basics
 
