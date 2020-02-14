@@ -58,17 +58,17 @@ In this training, we are going to provide an overview of the in-depth convolutio
 
 
 
-### Convolutional Neural Networks
+### Convolutional Neural Networks Notebooks
 
 
 
-| title                                        | ipynb                                                        | slides                                                         |
-| -------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Convolutions                                 | [github](https://github.com/goldmermaid/gtc2020/blob/master/cnn/2-conv-layer.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/cnn/2-conv-layer.ipynb#/) |
-| Pooling                                      | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/3-pooling.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/3-pooling.ipynb#/) |
-| Convolutional Neural Networks (LeNet)        | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/4-lenet.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/4-lenet.ipynb#/) |
-| Deep Convolutional Neural Networks (AlexNet) | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/5-alexnet.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/5-alexnet.ipynb#/) |
-| Residual Networks (ResNet)                   | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/8-resnet.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/8-resnet.ipynb#/) |
+| title                                        | notebooks                                                         |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| Convolutions                                 | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/dl/2-conv-layer.ipynb#/) |
+| Pooling                                      | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/3-pooling.ipynb#/) |
+| Convolutional Neural Networks (LeNet)        | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/4-lenet.ipynb#/) |
+| Deep Convolutional Neural Networks (AlexNet) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/5-alexnet.ipynb#/) |
+| Residual Networks (ResNet)                   | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/8-resnet.ipynb#/) |
 
 
 ### Resources and Q&A 
@@ -90,35 +90,4 @@ In this training, we are going to provide an overview of the in-depth convolutio
 
 ```{.python .input}
 
-```
-
-```{.python .input}
-
-```
-
-```{.python .input}
-
-```
-
-```{.python .input}
-
-```
-
-```{.python .input}
-# ### Overview of NLP
-
-# 1. NLP Roadmap
-# 1. Downstream Tasks
-# 1. Models
-# 1. Word Embedding : GloVe, etc.
-
-
-
-# ### TextCNN on Sentiment Analysis
-
-# [github](https://github.com/goldmermaid/gtc2020/blob/master/cnn/textCNN.ipynb)
-# [slides](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/cnn/textCNN.ipynb#/1)
-
-
-# ### AutoML
 ```
