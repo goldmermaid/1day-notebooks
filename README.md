@@ -88,6 +88,5 @@ In this training, we are going to provide an overview of the in-depth convolutio
 
 - [TVM](https://tvm.apache.org/): automatic generates and optimizes tensor operators on more backend with better performance for CPUs, GPUs and specialized accelerators.
 
-```{.python .input}
 
-```
+If you have any question, please leave us a message at our [discussion forum](https://discuss.mxnet.io/c/d2l-book). Have fun diving into deep learning!
