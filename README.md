@@ -27,7 +27,7 @@ To fulfill the strong wishes of simpler but more practical deep learning materia
 ### Installations
 
 - [Installations with CUDA](https://d2l.ai/chapter_installation/index.html)
-- [Basic Operations on GPUs](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/1-use-gpu.ipynb#/) ]
+- [Basic Operations on GPUs](https://nbviewer.jupyter.org/github/goldmermaid/gtc2020/blob/master/dl/1-use-gpu.ipynb)
 - [Hardware for deep learning](https://d2l.ai/chapter_computational-performance/hardware.html#gpus-and-other-accelerators)
 
 
@@ -49,19 +49,22 @@ In this training, we are going to provide an overview of the in-depth convolutio
 
 | Time | Topics | Slides |
 | --- | --- | --- |
-| 9:00---9:10 | Dive into Deep Learning | Slides |
-| 9:10---9:30 | Convolutional Neural Networks | [Notebooks](#Convolutional-Neural-Networks) |
-| 9:30---9:40 | Overview of Natural Language Processing | Slides |
-| 9:40---10:10 | TextCNN on Sentiment Analysis | [Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/cnn/textCNN.ipynb#/1) |
+| 9:00---9:10 | Dive into Deep Learning | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/DL.pdf) |
+| 9:10---9:40 | Convolutional Neural Networks | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/CNN.pdf), [Notebooks](#Convolutional-Neural-Networks) |
+| 9:40---9:50 | Intro to Natural Language Processing | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf) |
+| 9:50---10:10 | TextCNN on Sentiment Analysis | [Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/cnn/textCNN.ipynb#/1) |
 | 10:10---10:20 | AutoML | Slides |
 | 10:30---10:45 | Resources and Q&A | [Links](#Resources-and-Q&A ) | 
 
 
 
 ### Convolutional Neural Networks
+
+
+
 | title                                        | ipynb                                                        | slides                                                         |
 | -------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Convolutions                                 | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/2-conv-layer.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/dl/2-conv-layer.ipynb#/) |
+| Convolutions                                 | [github](https://github.com/goldmermaid/gtc2020/blob/master/cnn/2-conv-layer.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/cnn/2-conv-layer.ipynb#/) |
 | Pooling                                      | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/3-pooling.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/3-pooling.ipynb#/) |
 | Convolutional Neural Networks (LeNet)        | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/4-lenet.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/4-lenet.ipynb#/) |
 | Deep Convolutional Neural Networks (AlexNet) | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/5-alexnet.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/5-alexnet.ipynb#/) |
