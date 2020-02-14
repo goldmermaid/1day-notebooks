@@ -2,6 +2,8 @@
 
 Last updated：|today|
 
+Instructors: Rachel Hu (Amazon AI), Aston Zhang (Amazon AI)
+
 Deep learning is transforming the world nowadays. However, realizing deep learning presents unique challenges because any single application brings together various disciplines. Applying deep learning requires simultaneously understanding:
 
 1. the engineering required to train models efficiently, navigating the pitfalls of numerical computing and getting the most out of available hardware;
