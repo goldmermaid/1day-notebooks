@@ -22,7 +22,7 @@ To fulfill the strong wishes of simpler but more practical deep learning materia
 ## Prerequisites
 
 
-### Installations
+### GPU Basics
 
 - [Installations with CUDA](https://d2l.ai/chapter_installation/index.html)
 - [Basic Operations on GPUs](https://nbviewer.jupyter.org/github/goldmermaid/gtc2020/blob/master/dl/1-use-gpu.ipynb)
@@ -49,9 +49,8 @@ In this training, we are going to provide an overview of the in-depth convolutio
 | --- | --- | --- |
 | 9:00---9:10 | Dive into Deep Learning | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/DL.pdf) |
 | 9:10---9:40 | Convolutional Neural Networks | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/CNN.pdf), [Notebooks](#Convolutional-Neural-Networks) |
-| 9:40---9:50 | Intro to Natural Language Processing | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf) |
-| 9:50---10:10 | TextCNN on Sentiment Analysis | [Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/cnn/textCNN.ipynb#/1) |
-| 10:10---10:20 | AutoML | Slides |
+| 9:40---10:00 | Intro to Natural Language Processing | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf) |
+| 10:00---10:30 | TextCNN on Sentiment Analysis | [Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/dl/textCNN.ipynb#/1) |
 | 10:30---10:45 | Resources and Q&A | [Links](#Resources-and-Q&A ) | 
 
 
@@ -70,6 +69,9 @@ In this training, we are going to provide an overview of the in-depth convolutio
 
 
 ### Resources and Q&A 
+
+
+- [AutoGluon](https://autogluon.mxnet.io/) enables easy-to-use and easy-to-extend AutoML with a focus on deep learning and real-world applications spanning image, text, or tabular data.
 
 
 - [GluonNLP](http://gluon-nlp.mxnet.io/) offers state-of-the-art pretrained NLP models, easy text preprocessing, datasets loading and neural models building; 
