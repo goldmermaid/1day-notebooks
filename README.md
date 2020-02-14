@@ -26,7 +26,7 @@ To fulfill the strong wishes of simpler but more practical deep learning materia
 
 - [Installations with CUDA](https://d2l.ai/chapter_installation/index.html)
 - [Basic Operations on GPUs](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/1-use-gpu.ipynb#/) ]
-
+- [Hardware for deep learning](https://d2l.ai/chapter_computational-performance/hardware.html#gpus-and-other-accelerators)
 
 
 ### Deep Learning Basics
@@ -36,7 +36,7 @@ To fulfill the strong wishes of simpler but more practical deep learning materia
 | Data Manipulation with Ndarray | [D2L](https://d2l.ai/chapter_preliminaries/ndarray.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/1-ndarray.ipynb#/) |
 | Automatic Differentiation | [D2L](https://d2l.ai/chapter_preliminaries/autograd.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/2-autograd.ipynb#/) |
 | Softmax Regression | [D2L](https://d2l.ai/chapter_linear-networks/softmax-regression.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/7-softmax-regression-gluon.ipynb#/) |
-| Concise Implementation of Multilayer Perceptron (MLP) | [D2L](https://d2l.ai/chapter_multilayer-perceptrons/mlp.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/9-mlp-gluon.ipynb#/) |
+| Multilayer Perceptron (MLP) | [D2L](https://d2l.ai/chapter_multilayer-perceptrons/mlp.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/9-mlp-gluon.ipynb#/) |
 
 
 
@@ -45,54 +45,43 @@ To fulfill the strong wishes of simpler but more practical deep learning materia
 In this training, we are going to provide an overview of the in-depth convolutional neural networks (CNN) theory and handy python code. What is more important, the audience would be able to train a simple CNN model on our pre-setup cloud-computing instances for free. Here are the detailed schedule:
 
 
-| Time | Topics |
-| --- | --- |
-| 9:00---9:10 | [Deep Learning Introduction](#Deep-Learning-Introduction) |
-| 9:10---9:30 | [Convolutional Neural Networks](#Convolutional-Neural-Networks) |
-| 9:30---9:40 | [Overview of NLP](#Overview-of-NLP) |
-| 9:40---10:10 | [TextCNN on Sentiment Analysis](#TextCNN-on-Sentiment-Analysis) |
-| 10:10---10:20 | [AutoML] |
-| 10:30---10:45 | [Resources and Q&A](#Resources-and-Q&A ) | 
-
-
-
-### Deep Learning Introduction
-
-| title                                        | ipynb                                                        | slides                                                         |
-| -------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Hardware for deep learning |  | [Notes](https://d2l.ai/chapter_computational-performance/hardware.html#gpus-and-other-accelerators) |
+| Time | Topics | Slides |
+| --- | --- | --- |
+| 9:00---9:10 | Dive into Deep Learning | Slides |
+| 9:10---9:30 | Convolutional Neural Networks | [Notebooks](#Convolutional-Neural-Networks) |
+| 9:30---9:40 | Overview of Natural Language Processing | Slides |
+| 9:40---10:10 | TextCNN on Sentiment Analysis | [Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/cnn/textCNN.ipynb#/1) |
+| 10:10---10:20 | AutoML | Slides |
+| 10:30---10:45 | Resources and Q&A | [Links](#Resources-and-Q&A ) | 
 
 
 
 ### Convolutional Neural Networks
 | title                                        | ipynb                                                        | slides                                                         |
 | -------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Convolutions                                 | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/2-conv-layer.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/2-conv-layer.ipynb#/) |
+| Convolutions                                 | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/2-conv-layer.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/dl/2-conv-layer.ipynb#/) |
 | Pooling                                      | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/3-pooling.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/3-pooling.ipynb#/) |
 | Convolutional Neural Networks (LeNet)        | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/4-lenet.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/4-lenet.ipynb#/) |
 | Deep Convolutional Neural Networks (AlexNet) | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/5-alexnet.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/5-alexnet.ipynb#/) |
-| Networks Using Blocks (VGG)                  | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/6-vgg.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/6-vgg.ipynb#/) |
-| Inception Networks (GoogLeNet)                   | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/7-googlenet.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/7-googlenet.ipynb#/) |
 | Residual Networks (ResNet)                   | [github](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/8-resnet.ipynb) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/8-resnet.ipynb#/) |
-
-### Overview of NLP
-
-1. NLP Roadmap
-1. Downstream Tasks
-1. Models
-1. Word Embedding : GloVe, etc.
-
-
-
-### TextCNN on Sentiment Analysis
-
-
-
-### AutoML
 
 
 ### Resources and Q&A 
 
+
+- [GluonNLP](http://gluon-nlp.mxnet.io/) offers state-of-the-art pretrained NLP models, easy text preprocessing, datasets loading and neural models building; 
+
+
+- [GluonCV](http://gluon-cv.mxnet.io/) provides state-of-the-art deep learning models in computer vision and carefully designed APIs that greatly reduce the implementation complexity;
+
+
+- [GluonTS](https://gluon-ts.mxnet.io/) supports deep learning based probabilistic time series modeling;
+
+
+- [Deep Graph Libray](https://www.dgl.ai/) develops easy-to-use, high performance and scalable Python package for deep learning on graphs;
+
+
+- [TVM](https://tvm.apache.org/): automatic generates and optimizes tensor operators on more backend with better performance for CPUs, GPUs and specialized accelerators.
 
 ```{.python .input}
 
@@ -100,4 +89,31 @@ In this training, we are going to provide an overview of the in-depth convolutio
 
 ```{.python .input}
 
+```
+
+```{.python .input}
+
+```
+
+```{.python .input}
+
+```
+
+```{.python .input}
+# ### Overview of NLP
+
+# 1. NLP Roadmap
+# 1. Downstream Tasks
+# 1. Models
+# 1. Word Embedding : GloVe, etc.
+
+
+
+# ### TextCNN on Sentiment Analysis
+
+# [github](https://github.com/goldmermaid/gtc2020/blob/master/cnn/textCNN.ipynb)
+# [slides](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/cnn/textCNN.ipynb#/1)
+
+
+# ### AutoML
 ```
