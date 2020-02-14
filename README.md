@@ -48,7 +48,7 @@ In this training, we are going to provide an overview of the in-depth convolutio
 | Time | Topics | Slides |
 | --- | --- | --- |
 | 9:00---9:10 | Dive into Deep Learning | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/DL.pdf) |
-| 9:10---9:40 | Convolutional Neural Networks | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/CNN.pdf), [Notebooks](#Convolutional-Neural-Networks) |
+| 9:10---9:40 | Convolutional Neural Networks | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/CNN.pdf), [Notebooks](#Convolutional-Neural-Networks-Notebooks) |
 | 9:40---10:00 | Intro to Natural Language Processing | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf) |
 | 10:00---10:30 | TextCNN on Sentiment Analysis | [Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/dl/textCNN.ipynb#/1) |
 | 10:30---10:45 | Resources and Q&A | [Links](#Resources-and-Q&A ) | 
