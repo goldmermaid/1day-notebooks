@@ -71,7 +71,7 @@ In this training, we are going to provide an overview of the in-depth convolutio
 ### Resources and Q&A 
 
 
-- [AutoGluon](https://autogluon.mxnet.io/) enables easy-to-use and easy-to-extend AutoML with a focus on deep learning and real-world applications spanning image, text, or tabular data.
+- [AutoGluon](https://autogluon.mxnet.io/) enables easy-to-use and easy-to-extend AutoML with a focus on deep learning and real-world applications spanning image, text, or tabular data;
 
 
 - [GluonNLP](http://gluon-nlp.mxnet.io/) offers state-of-the-art pretrained NLP models, easy text preprocessing, datasets loading and neural models building; 
