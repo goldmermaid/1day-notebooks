@@ -1,7 +1,5 @@
 # GTC2020 Tutorial - Dive into Deep Learning
 
-Last updated：|today|
-
 Instructors: Rachel Hu (Amazon AI), Aston Zhang (Amazon AI)
 
 Deep learning is transforming the world nowadays. However, realizing deep learning presents unique challenges because any single application brings together various disciplines. Applying deep learning requires simultaneously understanding:
