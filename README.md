@@ -1,6 +1,6 @@
 # GTC2020 Tutorial - Dive into Deep Learning
 
-Instructors: Rachel Hu (Amazon AI), Aston Zhang (Amazon AI)
+Instructors: Rachel Hu (AWS AI), Aston Zhang (AWS AI)
 
 Deep learning is transforming the world nowadays. However, realizing deep learning presents unique challenges because any single application brings together various disciplines. Applying deep learning requires simultaneously understanding:
 
@@ -22,22 +22,22 @@ To fulfill the strong wishes of simpler but more practical deep learning materia
 ## Prerequisites
 
 
-### GPU Basics
+### GPU Fundamentals
 
 - [Installations with CUDA](https://d2l.ai/chapter_installation/index.html)
 - [Basic Operations on GPUs](https://nbviewer.jupyter.org/github/goldmermaid/gtc2020/blob/master/dl/1-use-gpu.ipynb)
 - [Hardware for deep learning](https://d2l.ai/chapter_computational-performance/hardware.html#gpus-and-other-accelerators)
 
 
-### Deep Learning Basics
+### Deep Learning Fundamentals
+
+Here are a few concepts that will be the prerequistes for this lecture. Take a look if some of them are not familiar to you! :)
 
 | title                               |  notes    |  slides    |
 | ------------------------------ | ---- | ---- |
 | Data Manipulation with Ndarray | [D2L](https://d2l.ai/chapter_preliminaries/ndarray.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/1-ndarray.ipynb#/) |
-| Automatic Differentiation | [D2L](https://d2l.ai/chapter_preliminaries/autograd.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/2-autograd.ipynb#/) |
-| Softmax Regression | [D2L](https://d2l.ai/chapter_linear-networks/softmax-regression.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/7-softmax-regression-gluon.ipynb#/) |
 | Multilayer Perceptron (MLP) | [D2L](https://d2l.ai/chapter_multilayer-perceptrons/mlp.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/9-mlp-gluon.ipynb#/) |
-
+| Softmax Regression | [D2L](https://d2l.ai/chapter_linear-networks/softmax-regression.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/7-softmax-regression-gluon.ipynb#/) |
 
 
 ## Syllabus
@@ -47,25 +47,14 @@ In this training, we are going to provide an overview of the in-depth convolutio
 
 | Time | Topics | Slides |
 | --- | --- | --- |
-| 9:00---9:10 | Dive into Deep Learning | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/DL.pdf) |
-| 9:10---9:40 | Convolutional Neural Networks | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/CNN.pdf), [Notebooks](#Convolutional-Neural-Networks-Notebooks) |
-| 9:40---10:00 | Intro to Natural Language Processing | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf) |
+| 9:00---9:05 | Dive into Deep Learning | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/DL.pdf) |
+| 9:05---9:30 | Fundamental of Convolutional Neural Networks | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/CNN.pdf), [Notebooks](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/dl/convolutions.ipynb) |
+| 9:30---9:50 | LeNet & AlexNet | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf), [Notebooks](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/dl/Alexnet.ipynb) |
+| 9:50---10:00 | Intro to Natural Language Processing | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf) |
 | 10:00---10:30 | TextCNN on Sentiment Analysis | [Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/dl/textCNN.ipynb#/1) |
 | 10:30---10:45 | Resources and Q&A | [Links](#Resources-and-Q&A ) | 
 
 
-
-### Convolutional Neural Networks Notebooks
-
-
-
-| title                                        | notebooks                                                         |
-| -------------------------------------------- | ------------------------------------------------------------ |
-| Convolutions                                 | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/dl/2-conv-layer.ipynb#/) |
-| Pooling                                      | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/3-pooling.ipynb#/) |
-| Convolutional Neural Networks (LeNet)        | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/4-lenet.ipynb#/) |
-| Deep Convolutional Neural Networks (AlexNet) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/5-alexnet.ipynb#/) |
-| Residual Networks (ResNet)                   | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/8-resnet.ipynb#/) |
 
 
 ### Resources and Q&A 
@@ -90,3 +79,7 @@ In this training, we are going to provide an overview of the in-depth convolutio
 
 
 If you have any question, please leave us a message at our [discussion forum](https://discuss.mxnet.io/c/d2l-book). Have fun diving into deep learning!
+
+```{.python .input}
+
+```
