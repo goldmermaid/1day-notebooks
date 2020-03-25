@@ -48,10 +48,10 @@ In this training, we are going to provide an overview of the in-depth convolutio
 | Time | Topics | Slides |
 | --- | --- | --- |
 | 9:00---9:05 | Dive into Deep Learning | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/DL.pdf) |
-| 9:05---9:30 | Fundamental of Convolutional Neural Networks | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/CNN.pdf), [Notebooks](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/dl/convolutions.ipynb) |
-| 9:30---9:50 | LeNet & AlexNet | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf), [Notebooks](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/dl/Alexnet.ipynb) |
+| 9:05---9:30 | Fundamental of Convolutional Neural Networks | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/CNN.pdf), [Notebooks](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/convolutions.ipynb) |
+| 9:30---9:50 | LeNet & AlexNet | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf), [Notebooks](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/Alexnet.ipynb) |
 | 9:50---10:00 | Intro to Natural Language Processing | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf) |
-| 10:00---10:30 | TextCNN on Sentiment Analysis | [Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/dl/textCNN.ipynb#/1) |
+| 10:00---10:30 | TextCNN on Sentiment Analysis | [Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/textCNN.ipynb) |
 | 10:30---10:45 | Resources and Q&A | [Links](#Resources-and-Q&A ) | 
 
 
