@@ -25,7 +25,7 @@ To fulfill the strong wishes of simpler but more practical deep learning materia
 ### GPU Fundamentals
 
 - [Installations with CUDA](https://d2l.ai/chapter_installation/index.html)
-- [Basic Operations on GPUs](https://nbviewer.jupyter.org/github/goldmermaid/gtc2020/blob/master/Notebooks/use-gpu.ipynb)
+- [Basic Operations on GPUs](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/1-use-gpu.ipynb#/)
 - [Hardware for deep learning](https://d2l.ai/chapter_computational-performance/hardware.html#gpus-and-other-accelerators)
 
 
