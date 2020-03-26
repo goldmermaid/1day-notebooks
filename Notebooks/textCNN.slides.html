@@ -13243,7 +13243,6 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="TextCNN-on-NLP">TextCNN on NLP<a class="anchor-link" href="#TextCNN-on-NLP">&#182;</a></h1><p>Traditionally, for Natural Language Processing (NLP), we used recurrent neural networks (RNN) to process the text data. In fact, we can also treat text as a one-dimensional image, so that we can use one-dimensional convolutional neural networks (CNN) to capture associations between adjacent words.</p>
-<p><img src="https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/1d-vector.svg" alt="An example to illustrate one-dimensional word vectors."></p>
 <p>This notebook describes a groundbreaking approach to applying convolutional neural networks to text analysis: textCNN <a href="https://arxiv.org/abs/1408.5882">by Kim et al.</a>.</p>
 
 </div>
@@ -13433,7 +13432,6 @@ a.anchor-link {
 <p>We can use the <a href="https://beta.mxnet.io/api/gluon/_autogen/mxnet.gluon.nn.GlobalAvgPool1D.html">gluon built-in class <code>GlobalMaxPool1D()</code></a> as below:</p>
 <div class="highlight"><pre><span></span><span class="n">max_over_time_pooling</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">GlobalMaxPool1D</span><span class="p">()</span>
 </pre></div>
-<p><img src="https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/maxpooling.svg" alt="The max-over-time pooling layer."></p>
 
 </div>
 </div>
@@ -13443,7 +13441,6 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="3.-Fully-Connected-Layer-and-Dropout">3. Fully Connected Layer and Dropout<a class="anchor-link" href="#3.-Fully-Connected-Layer-and-Dropout">&#182;</a></h3><p>The fully connected layer is referred as the <code>Dense()</code> layer in Gluon (<a href="https://d2l.ai/chapter_multilayer-perceptrons/mlp-gluon.html">more detail</a> in D2L).</p>
 <p>Besides, a dropout layer <code>Dropout()</code> can be used after the fully connected layer to deal with the overfitting problem.</p>
-<p><img src="https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/ff.svg" alt="The fully connected layer."></p>
 
 </div>
 </div>
