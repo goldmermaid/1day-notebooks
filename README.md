@@ -45,14 +45,14 @@ Here are a few concepts that will be the prerequistes for this lecture. Take a l
 In this training, we are going to provide an overview of the in-depth convolutional neural networks (CNN) theory and handy python code. What is more important, the audience would be able to train a simple CNN model on our pre-setup cloud-computing instances for free. Here are the detailed schedule:
 
 
-| Time | Topics | Slides |
-| --- | --- | --- |
-| 9:00---9:05 | Dive into Deep Learning | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/DL.pdf) |
-| 9:05---9:30 | Fundamental of Convolutional Neural Networks | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/CNN.pdf), [Notebooks](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/convolutions.ipynb) |
-| 9:30---9:50 | LeNet & AlexNet | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf), [Notebooks](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/Alexnet.ipynb) |
-| 9:50---10:00 | Intro to Natural Language Processing | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf) |
-| 10:00---10:30 | TextCNN on Sentiment Analysis | [Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/textCNN.ipynb) |
-| 10:30---10:45 | Resources and Q&A | [Links](#Resources-and-Q&A ) | 
+| Topics | Slides |
+| --- | --- |
+| Dive into Deep Learning | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/DL.pdf) |
+| Fundamental of Convolutional Neural Networks | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/CNN.pdf), [Notebooks](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/convolutions.ipynb) |
+| LeNet & AlexNet | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf), [Notebooks](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/Alexnet.ipynb) |
+| Intro to Natural Language Processing | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf) |
+| TextCNN on Sentiment Analysis | [Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/textCNN.ipynb) |
+| Resources and Q&A | [Links](#Resources-and-Q&A ) | 
 
 
 
@@ -79,7 +79,3 @@ In this training, we are going to provide an overview of the in-depth convolutio
 
 
 If you have any question, please leave us a message at our [discussion forum](https://discuss.mxnet.io/c/d2l-book). Have fun diving into deep learning!
-
-```{.python .input}
-
-```
