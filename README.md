@@ -47,10 +47,10 @@ In this training, we are going to provide an overview of the in-depth convolutio
 
 | Topics | Slides |
 | --- | --- |
-| Dive into Deep Learning | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/DL.pdf) |
-| Fundamental of Convolutional Neural Networks | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/CNN.pdf), [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/convolutions.ipynb) |
-| LeNet & AlexNet | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf), [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/Alexnet.ipynb) |
-| Intro to Natural Language Processing | [Slides](https://github.com/goldmermaid/gtc2020/blob/master/NLP.pdf) |
+| Dive into Deep Learning | [Slides](slides/DL.pdf) |
+| Fundamental of Convolutional Neural Networks | [Slides](slides/CNN.pdf), [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/convolutions.ipynb) |
+| LeNet & AlexNet | [Slides](slides/NLP.pdf), [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/Alexnet.ipynb) |
+| Intro to Natural Language Processing | [Slides](slides/NLP.pdf) |
 | TextCNN on Sentiment Analysis | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/textCNN.ipynb) |
 | Resources and Q&A | [Links](#Resources-and-Q&A ) | 
 
